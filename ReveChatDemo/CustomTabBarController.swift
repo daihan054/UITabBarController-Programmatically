@@ -51,7 +51,7 @@ class CustomTabBarController: UITabBarController {
         super.viewDidLayoutSubviews()
         
         if dividerView == nil {
-            let divider = UIView(frame: CGRect(x: 0, y: tabBar.frame.origin.y - 20, width: tabBar.frame.width, height: 1))
+            let divider = UIView(frame: CGRect(x: 0, y: tabBar.frame.origin.y - 20, width: tabBar.frame.width, height: 2))
             divider.backgroundColor = UIColor.gray.withAlphaComponent(0.1)
             view.addSubview(divider)
             dividerView = divider
@@ -71,12 +71,12 @@ class CustomTabBarController: UITabBarController {
         if let items = tabBar.items {
             for tab in items {
                 let normalAttributes: [NSAttributedString.Key: Any] = [
-                    .font: UIFont.systemFont(ofSize: 12),
+                    .font: UIFont.systemFont(ofSize: 12, weight: .semibold),
                     .foregroundColor: UIColor(red: 0.435, green: 0.51, blue: 0.58, alpha: 1)
                 ]
 
                 let selectedAttributes: [NSAttributedString.Key: Any] = [
-                    .font: UIFont.systemFont(ofSize: 12),
+                    .font: UIFont.systemFont(ofSize: 12, weight: .bold),
                     .foregroundColor: UIColor.black
                 ]
 
