@@ -9,7 +9,7 @@ import UIKit
 
 let GAP = 80.0;
 
-class CustomTabBarController: UITabBarController {
+class HomeTabBarController: UITabBarController {
     
     private var dividerView: UIView?
     

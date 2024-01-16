@@ -16,7 +16,7 @@
 		C73C58F42B54F5AF00ABE85F /* TicketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73C58F22B54F5AF00ABE85F /* TicketViewController.xib */; };
 		C73C58F72B54F5D500ABE85F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C58F52B54F5D500ABE85F /* SettingViewController.swift */; };
 		C73C58F82B54F5D500ABE85F /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73C58F62B54F5D500ABE85F /* SettingViewController.xib */; };
-		C73C58FB2B54F67200ABE85F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C58F92B54F67200ABE85F /* CustomTabBarController.swift */; };
+		C73C58FB2B54F67200ABE85F /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C58F92B54F67200ABE85F /* HomeTabBarController.swift */; };
 		C73C59342B561C4700ABE85F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C59332B561C4700ABE85F /* CustomTabBar.swift */; };
 		C797EE002B4FF46100EF0E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797EDFF2B4FF46100EF0E59 /* AppDelegate.swift */; };
 		C797EE022B4FF46100EF0E59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797EE012B4FF46100EF0E59 /* SceneDelegate.swift */; };
@@ -36,7 +36,7 @@
 		C73C58F22B54F5AF00ABE85F /* TicketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketViewController.xib; sourceTree = "<group>"; };
 		C73C58F52B54F5D500ABE85F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		C73C58F62B54F5D500ABE85F /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
-		C73C58F92B54F67200ABE85F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		C73C58F92B54F67200ABE85F /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		C73C59332B561C4700ABE85F /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		C797EDFC2B4FF46100EF0E59 /* ReveChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReveChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C797EDFF2B4FF46100EF0E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 				C73C58F22B54F5AF00ABE85F /* TicketViewController.xib */,
 				C73C58F52B54F5D500ABE85F /* SettingViewController.swift */,
 				C73C58F62B54F5D500ABE85F /* SettingViewController.xib */,
-				C73C58F92B54F67200ABE85F /* CustomTabBarController.swift */,
+				C73C58F92B54F67200ABE85F /* HomeTabBarController.swift */,
 				C73C59332B561C4700ABE85F /* CustomTabBar.swift */,
 			);
 			path = ReveChatDemo;
@@ -226,7 +226,7 @@
 				C73C59342B561C4700ABE85F /* CustomTabBar.swift in Sources */,
 				C73C58E72B54F53500ABE85F /* ChatViewController.swift in Sources */,
 				C797EE022B4FF46100EF0E59 /* SceneDelegate.swift in Sources */,
-				C73C58FB2B54F67200ABE85F /* CustomTabBarController.swift in Sources */,
+				C73C58FB2B54F67200ABE85F /* HomeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
