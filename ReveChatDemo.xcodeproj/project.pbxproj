@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		91FBCA30D2024007D2167975 /* libPods-ReveChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EFEC7A21A1FADC88A91FD8 /* libPods-ReveChatDemo.a */; };
-		C73C58D92B538B8000ABE85F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C58D82B538B8000ABE85F /* UIViewControllerExtension.swift */; };
 		C73C58E72B54F53500ABE85F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C58E52B54F53500ABE85F /* ChatViewController.swift */; };
 		C73C58E82B54F53500ABE85F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C73C58E62B54F53500ABE85F /* ChatViewController.xib */; };
 		C73C58ED2B54F57300ABE85F /* AgentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C58EB2B54F57300ABE85F /* AgentViewController.swift */; };
@@ -21,7 +20,6 @@
 		C73C59342B561C4700ABE85F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C59332B561C4700ABE85F /* CustomTabBar.swift */; };
 		C797EE002B4FF46100EF0E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797EDFF2B4FF46100EF0E59 /* AppDelegate.swift */; };
 		C797EE022B4FF46100EF0E59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797EE012B4FF46100EF0E59 /* SceneDelegate.swift */; };
-		C797EE042B4FF46100EF0E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797EE032B4FF46100EF0E59 /* ViewController.swift */; };
 		C797EE072B4FF46100EF0E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C797EE052B4FF46100EF0E59 /* Main.storyboard */; };
 		C797EE092B4FF46400EF0E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C797EE082B4FF46400EF0E59 /* Assets.xcassets */; };
 		C797EE0C2B4FF46400EF0E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C797EE0A2B4FF46400EF0E59 /* LaunchScreen.storyboard */; };
@@ -30,8 +28,6 @@
 /* Begin PBXFileReference section */
 		90782F18429F3AD9F28F5673 /* Pods-ReveChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReveChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-ReveChatDemo/Pods-ReveChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BF9E39871BAB517053FE4F80 /* Pods-ReveChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReveChatDemo.release.xcconfig"; path = "Target Support Files/Pods-ReveChatDemo/Pods-ReveChatDemo.release.xcconfig"; sourceTree = "<group>"; };
-		C73C58D72B53889500ABE85F /* ReveChatDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReveChatDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		C73C58D82B538B8000ABE85F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		C73C58E52B54F53500ABE85F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C73C58E62B54F53500ABE85F /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		C73C58EB2B54F57300ABE85F /* AgentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +41,6 @@
 		C797EDFC2B4FF46100EF0E59 /* ReveChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReveChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C797EDFF2B4FF46100EF0E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C797EE012B4FF46100EF0E59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C797EE032B4FF46100EF0E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C797EE062B4FF46100EF0E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C797EE082B4FF46400EF0E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C797EE0B2B4FF46400EF0E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,13 +100,10 @@
 			children = (
 				C797EDFF2B4FF46100EF0E59 /* AppDelegate.swift */,
 				C797EE012B4FF46100EF0E59 /* SceneDelegate.swift */,
-				C797EE032B4FF46100EF0E59 /* ViewController.swift */,
 				C797EE052B4FF46100EF0E59 /* Main.storyboard */,
 				C797EE082B4FF46400EF0E59 /* Assets.xcassets */,
 				C797EE0A2B4FF46400EF0E59 /* LaunchScreen.storyboard */,
 				C797EE0D2B4FF46400EF0E59 /* Info.plist */,
-				C73C58D72B53889500ABE85F /* ReveChatDemo-Bridging-Header.h */,
-				C73C58D82B538B8000ABE85F /* UIViewControllerExtension.swift */,
 				C73C58E52B54F53500ABE85F /* ChatViewController.swift */,
 				C73C58E62B54F53500ABE85F /* ChatViewController.xib */,
 				C73C58EB2B54F57300ABE85F /* AgentViewController.swift */,
@@ -228,9 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C73C58F32B54F5AF00ABE85F /* TicketViewController.swift in Sources */,
-				C73C58D92B538B8000ABE85F /* UIViewControllerExtension.swift in Sources */,
 				C73C58ED2B54F57300ABE85F /* AgentViewController.swift in Sources */,
-				C797EE042B4FF46100EF0E59 /* ViewController.swift in Sources */,
 				C73C58F72B54F5D500ABE85F /* SettingViewController.swift in Sources */,
 				C797EE002B4FF46100EF0E59 /* AppDelegate.swift in Sources */,
 				C73C59342B561C4700ABE85F /* CustomTabBar.swift in Sources */,
@@ -402,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoapp.ReveChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,7 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoapp.ReveChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/$(SWIFT_MODULE_NAME)-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
